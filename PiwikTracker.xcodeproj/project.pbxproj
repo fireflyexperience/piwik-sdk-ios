@@ -46,6 +46,16 @@
 		B84B15C61B4ED756005514DD /* PiwikLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD152F5C188C7CCA0090BFD3 /* PiwikLocationManager.m */; };
 		B84B15C71B4ED773005514DD /* piwiktracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDBCF6F81B10C6C200F77481 /* piwiktracker.xcdatamodeld */; };
 		B84B15C81B4ED778005514DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1EA93217B0DA3E00F63E14 /* CoreData.framework */; };
+		B84B161B1B4ED9B0005514DD /* PiwikTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = CD10FAEA17B037B50012BE50 /* PiwikTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B161C1B4ED9B0005514DD /* PiwikDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC7625519B0F9DA00EED980 /* PiwikDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B161D1B4ED9B0005514DD /* PiwikDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EEB1E19B4A208009BAA7A /* PiwikDebugDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B161E1B4ED9B0005514DD /* PiwikNSURLSessionDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EEB2019B4A208009BAA7A /* PiwikNSURLSessionDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B161F1B4ED9B0005514DD /* PiwikTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = CD152F3B188BE59F0090BFD3 /* PiwikTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B16201B4ED9B0005514DD /* PiwikTransactionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD152F41188C4B010090BFD3 /* PiwikTransactionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B16211B4ED9B0005514DD /* PiwikTransactionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CD152F4C188C52BA0090BFD3 /* PiwikTransactionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B16221B4ED9B0005514DD /* PiwikTrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2F7DB117B96D0000E240FC /* PiwikTrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B16231B4ED9B0005514DD /* PTEventEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EA96717B0E5B400F63E14 /* PTEventEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84B16241B4ED9B0005514DD /* PiwikLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEAEAAC180B36CC00EB91C2 /* PiwikLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C027567BEC62566E6F824230 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB58213275F072D13140292 /* libPods-ios.a */; };
 		CD03D99417E8F8CB00D7723F /* Screen2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03D99317E8F8CB00D7723F /* Screen2ViewController.m */; };
 		CD03D99717E8FDFD00D7723F /* OptOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03D99617E8FDFC00D7723F /* OptOutViewController.m */; };
@@ -582,6 +592,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84B15AA1B4ED72A005514DD /* PiwikTrackerFramework.h in Headers */,
+				B84B161B1B4ED9B0005514DD /* PiwikTracker.h in Headers */,
+				B84B161C1B4ED9B0005514DD /* PiwikDispatcher.h in Headers */,
+				B84B161D1B4ED9B0005514DD /* PiwikDebugDispatcher.h in Headers */,
+				B84B161E1B4ED9B0005514DD /* PiwikNSURLSessionDispatcher.h in Headers */,
+				B84B161F1B4ED9B0005514DD /* PiwikTransaction.h in Headers */,
+				B84B16201B4ED9B0005514DD /* PiwikTransactionItem.h in Headers */,
+				B84B16211B4ED9B0005514DD /* PiwikTransactionBuilder.h in Headers */,
+				B84B16221B4ED9B0005514DD /* PiwikTrackedViewController.h in Headers */,
+				B84B16231B4ED9B0005514DD /* PTEventEntity.h in Headers */,
+				B84B16241B4ED9B0005514DD /* PiwikLocationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1539,6 +1559,7 @@
 				B84B15BA1B4ED72A005514DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD10FAB717B0378D0012BE50 /* Build configuration list for PBXProject "PiwikTracker" */ = {
 			isa = XCConfigurationList;

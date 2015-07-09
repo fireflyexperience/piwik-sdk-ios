@@ -16,4 +16,13 @@ FOUNDATION_EXPORT const unsigned char PiwikTrackerFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PiwikTrackerFramework/PublicHeader.h>
 
-
+#import "PTEventEntity.h"
+#import "PiwikDebugDispatcher.h"
+#import "PiwikDispatcher.h"
+#import "PiwikLocationManager.h"
+#import "PiwikNSURLSessionDispatcher.h"
+#import "PiwikTrackedViewController.h"
+#import "PiwikTracker.h"
+#import "PiwikTransaction.h"
+#import "PiwikTransactionBuilder.h"
+#import "PiwikTransactionItem.h"
